@@ -92,13 +92,26 @@
 // isNumberInRange(20, 50, 76);
 
 // Задача 22
-function checkIfCanAccessContent(subType) {
-    const canAccessContent = subType === 'pro' || subType === 'vip'; // Change this line
-    console.log(canAccessContent);
+// function checkIfCanAccessContent(subType) {
+//     const canAccessContent = subType === 'pro' || subType === 'vip'; // Change this line
+//     console.log(canAccessContent);
 
-  return canAccessContent;
+//   return canAccessContent;
+// }
+// checkIfCanAccessContent("pro");
+// checkIfCanAccessContent("starter");
+// checkIfCanAccessContent("vip");
+// checkIfCanAccessContent("free");
+
+// Задача 23
+function isNumberNotInRange(start, end, number) {
+  const isInRange = number >= start && number <= end;
+  const isNotInRange = !start && !end; // Change this line
+  console.log(!number);
+
+  return isNotInRange;
 }
-checkIfCanAccessContent("pro");
-checkIfCanAccessContent("starter");
-checkIfCanAccessContent("vip");
-checkIfCanAccessContent("free");
+isNumberNotInRange(10, 30, 17);
+isNumberNotInRange(10, 30, 5);
+isNumberNotInRange(20, 50, 24);
+isNumberNotInRange(20, 50, 76);
