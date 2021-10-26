@@ -145,3 +145,19 @@
 // getDiscount(5000);
 // getDiscount(20000);
 // getDiscount(50000);
+
+// Part 2
+// Task 1
+// function checkAge(age) {
+//   if (age >= 18) { // Change this line
+//     console.log("You are an adult");
+//     return;
+//   }
+//   console.log("You are a minor");
+//   return;
+// }
+
+// checkAge(20);
+// checkAge(8);
+// checkAge(14);
+// checkAge(38);
