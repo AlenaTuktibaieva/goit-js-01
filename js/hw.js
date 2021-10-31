@@ -247,3 +247,73 @@
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2);
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4);
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0);
+
+
+// Task 17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+
+// Task 18
+// function calculateTotal(number) {
+//  // Change code below this line
+//     let total = 0;
+//     for (let i = 0; i < number; i++) {
+//         total += i;
+//         console.log(total);
+//     }
+//     return total;
+//   // Change code above this line
+// }
+// calculateTotal(1);
+// calculateTotal(3);
+// calculateTotal(7);
+// calculateTotal(18);
+// calculateTotal(24);
+
+
+// Task 19
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+
+// Task 20
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//     for (i = 0; i < order.length; i += 1) {
+//         total += order[i];
+//         console.log(total);
+//     }
+//     // for (const orders of order) {
+//     //     total += orders;
+//     //     console.log(total);
+//     // }
+
+//   // Change code above this line
+//   return total;
+// }
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+
+
+// Task 21
+function findLongestWord(string) {
+  // Change code below this line
+    let longWord;
+    for (let i = 0; i <= longWord; i += 1)
+        console.log(longWord);
+  // Change code above this line
+}
+findLongestWord("The quick brown fox jumped over the lazy dog");
+findLongestWord("Google do a roll");
+findLongestWord("May the force be with you");
