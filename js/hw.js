@@ -161,3 +161,89 @@
 // checkAge(8);
 // checkAge(14);
 // checkAge(38);
+
+// Task 9
+// function getExtremeElements(array) {
+//     const result = [array[0], array[array.length - 1]];
+//     console.log(result);
+//     return result;
+// }
+
+
+// getExtremeElements([1, 2, 3, 4, 5]);
+// getExtremeElements(["Earth", "Mars", "Venus"]);
+// getExtremeElements(["apple", "peach", "pear", "banana"]);
+
+
+// Task 10
+// function splitMessage(message, delimeter) {
+//     let words;
+//     words = message.split(delimeter);
+//     console.log(words);
+
+//   return words;
+// }
+// splitMessage("Mango hurries to the train", " ");
+// splitMessage("Mango", "");
+// splitMessage("best_for_week", "_");
+
+
+// Task 11
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+//     let words = message.split(" ");
+//     let totalPrice = words.length * pricePerWord;
+//     console.log(totalPrice);
+//     return totalPrice;
+//    // Change code above this line
+// }
+// calculateEngravingPrice("JavaScript is in my blood", 10);
+// calculateEngravingPrice("JavaScript is in my blood", 20);
+// calculateEngravingPrice("Web-development is creative work", 40);
+// calculateEngravingPrice("Web-development is creative work", 20);
+
+
+// Task 12
+// function slugify(title) {
+//   // Change code below this line
+//     let result = title.toLowerCase().split(' ').join('-');
+    
+//     console.log(result);
+//     return result;
+//   // Change code above this line
+// }
+// slugify("Arrays for begginers");
+// slugify("English for developer");
+// slugify("Ten secrets of JavaScript");
+// slugify("How to become a JUNIOR developer in TWO WEEKS");
+
+
+// Task 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(-3);
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+//  console.log(lastThreeEls);
+
+
+// Task 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+//     let newArray = firstArray.concat(secondArray);
+//     console.log(newArray.slice(0, maxLength));
+//     return newArray.slice(0, maxLength);
+
+//     return newArray;
+    
+//     // Change code above this line
+// }
+// makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3);
+// makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4);
+// makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4);
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0);
