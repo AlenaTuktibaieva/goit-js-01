@@ -307,13 +307,163 @@
 
 
 // Task 21
-function findLongestWord(string) {
-  // Change code below this line
-    let longWord;
-    for (let i = 0; i <= longWord; i += 1)
-        console.log(longWord);
-  // Change code above this line
-}
-findLongestWord("The quick brown fox jumped over the lazy dog");
-findLongestWord("Google do a roll");
-findLongestWord("May the force be with you");
+// function findLongestWord(string) {
+//   // Change code below this line
+//     const word = string.split(' ');
+//     let longestWord = word[0];
+//     for (let i = 0; i < word.length; i += 1) {
+//         if (word[i].length > longestWord.length) {
+//             longestWord = word[i];
+//         }
+//     }
+        
+//     console.log(longestWord);
+    
+//     return longestWord;
+//   // Change code above this line
+// }
+// findLongestWord("The quick brown fox jumped over the lazy dog");
+// findLongestWord("Google do a roll");
+// findLongestWord("May the force be with you");
+
+
+// Task 22
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+//     for (let i = min; i <= max; i += 1) {
+//         numbers.push(i);
+//     }
+//     console.log(numbers);
+
+//   // Change code above this line
+//   return numbers;
+// }
+// createArrayOfNumbers(1, 3);
+// createArrayOfNumbers(14, 17);
+// createArrayOfNumbers(29, 34);
+
+
+// Task 23
+// function filterArray(numbers, value) {
+//    // Change code below this line
+//     const filter = [];
+//     for (let i = 0; i < numbers.length; i += 1) {
+//         if (numbers[i] > value) {
+//             filter.push(numbers[i]);
+//         }
+//     }
+//     console.log(filter);
+
+//     return filter;
+//   // Change code above this line
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+// filterArray([1, 2, 3, 4, 5], 4);
+// filterArray([1, 2, 3, 4, 5], 5);
+// filterArray([12, 24, 8, 41, 76], 38);
+// filterArray([12, 24, 8, 41, 76], 20);
+
+
+// Task 24
+// function checkFruit(fruit) {
+//     const fruits = ["apple", "plum", "pear", "orange"];
+        
+//         return fruits.includes(fruit);
+//     }
+//   ; // Change this line
+
+// checkFruit("plum");
+// checkFruit("mandarin");
+// checkFruit("pear");
+// checkFruit("Pear");
+// checkFruit("apple");
+
+
+// Task 25
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//     let newArray = [];
+//     for (const element of array1) {
+//         if (array2.includes(element)) {
+//             newArray.push(element);
+//         }
+        
+//     }
+//     console.log(newArray);
+//     return newArray;
+
+//  // Change code above this line
+// }
+// getCommonElements([1, 2, 3], [2, 4]);
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]);
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
+// getCommonElements([1, 2, 3], [10, 20, 30]);
+
+
+// Task 26
+// function calculateTotalPrice(order) {
+//   let total = 0;const
+//   // Change code below this line
+
+//   for (const orders of order) {
+//     total += orders;
+//       console.log(total);
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+// calculateTotalPrice([]);
+
+
+// Task 27
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//     }
+//     console.log(filteredNumbers);
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+
+
+// Task 29
+// function getEvenNumbers(start, end) {
+//    // Change code below this line
+//   const number = [];
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//     number.push(i);
+//     }
+      
+//   }
+//   return number;
+//     // Change code above this line
+//   }
+
+
+// Task 32
+// function includes(array, value) {
+//   // Change code below this line
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (array[i] === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+//   // Change code above this line
+// }
+
