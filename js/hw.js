@@ -778,4 +778,141 @@
 // const finalSettings = { ...defaultSettings, ...overrideSettings };
 
 
+// Task 30
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+// return {completed, category, priority, ...data};
+//   // Change code above this line
+// }
+
+
+// Task 31
+// Change code below this line
+// function add(...args) {
+//     let total = 0;
+//     for (const arg of args) {
+//         total += arg;
+//     }
+//     return total;
+    // let total = 0;
+    // for (let i = 0; i < args.length; i += 1)
+    //     if (args[i] > args[0]) {
+    //         total += args[i];
+    //     }
+    // return total;
+  // Change code above this line
+// }
+// add(15, 27);
+// add(12, 4, 11, 48);
+// add(32, 6, 13, 19, 8);
+// add(74, 11, 62, 46, 12, 36);
+
+
+// Task 32
+// Change code below this line
+// function addOverNum(maxNumber, ...args) {
+//   let total = 0;
+
+//   for (const arg of args) {
+//     if (arg > maxNumber) {
+//     total += arg;
+//     }
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+
+
+// Task 33
+// Change code below this line
+// function findMatches(number, ...args) {
+//     const matches = []; // Don't change this line
+//     for (const arg of args) {
+//         if (number.includes(arg)) {
+//             matches.push(arg);
+//         }
+//     }
+
+//   // Change code above this line
+//   return matches;
+// }
+
+
+// Task 34
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`;
+//   },
+//   // Change code above this line
+// };
+
+
+// Task 35
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+//       const bookIndex = this.books.indexOf(oldName);
+//       return this.books.splice(bookIndex, 1, newName);
+    
+//     // Change code above this line
+//   },
+// };
+
+
+// Task 41
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     for (const potion of this.potions) {
+//     if (newPotion.name === potion.name) {
+//       return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//     }}
+//     this.potions.push(newPotion);
+    
+//   },
+//   removePotion(potionName) {
+//     for (const potion of this.potions) {
+//     if (potion.name === potionName) {
+//       this.potions.splice(this.potions.indexOf(potion), 1);
+//       return;
+//     }}
+//   },
+//   updatePotionName(oldName, newName) {
+//     const potionIndex = this.potions.indexOf(oldName);
+//     for (const potion of this.potions) {
+//     if (potion.name === oldName) {
+//       potion.name = newName;
+//       return;
+//     }}
+
+//     return `Potion ${oldName} is not in inventory!`;
+    
+//   },
+//   // Change code above this line
+// };
+
 
