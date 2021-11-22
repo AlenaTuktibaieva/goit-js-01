@@ -103,3 +103,91 @@
 //   return filteredNumbers;
 // }
 
+
+// Task 7
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+//     firstArray.forEach(number => {
+//         if (secondArray.includes(number)) {
+//             commonElements.push(number);
+//         }
+//     });
+
+//   return commonElements;
+//   // Change code above this line
+// }
+
+
+// Task 8
+// Change code below this line
+
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//   // Change code above this line
+//   return quantity * pricePerItem;
+// }
+
+
+// Task 9
+// // Change code below this line
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+// // Change code above this line
+
+
+// Task 10
+// // Change code below this line
+// const calculateTotalPrice = (orderedItems) => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach(item => {
+//     totalPrice += item;
+//   });
+
+//   return totalPrice;
+// }
+// // Change code above this line
+// calculateTotalPrice([12, 85, 37, 4]);
+// calculateTotalPrice([164, 48, 291]);
+// calculateTotalPrice([412, 371, 94, 63, 176]);
+
+
+// Task 11
+// Change code below this line
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
+
+//   numbers.forEach(number => {
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+// filterArray([1, 2, 3, 4, 5], 3);
+// filterArray([1, 2, 3, 4, 5], 4);
+// filterArray([1, 2, 3, 4, 5], 5);
+// filterArray([12, 24, 8, 41, 76], 38);
+// filterArray([12, 24, 8, 41, 76], 20);
+
+
+// Task 13
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   const newNumbers = [];
+//   numbers.forEach(element => {
+//     element % 2 === 0 ? newNumbers.push(element + value) : newNumbers.push(element);
+//   });
+  
+//   return newNumbers;
+//   // Change code above this line
+// }
+// changeEven([1, 2, 3, 4, 5], 10);
+// changeEven([2, 8, 3, 7, 4, 6], 10);
+// changeEven([17, 24, 68, 31, 42], 100);
+// changeEven([44, 13, 81, 92, 36, 54], 100);
+
+
+
+
