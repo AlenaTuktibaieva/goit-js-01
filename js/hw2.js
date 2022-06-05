@@ -101,9 +101,7 @@
 // Task 16
 // function makeArray(firstArray, secondArray, maxLength) {
 //     // Change code below this line
-//     let newArray = firstArray.concat(secondArray);
-//     console.log(newArray.slice(0, maxLength));
-//     return newArray.slice(0, maxLength);
+//     let newArray = firstArray.concat(secondArray).slice(0, maxLength);
 
 //     return newArray;
     
@@ -130,7 +128,7 @@
 // function calculateTotal(number) {
 //  // Change code below this line
 //     let total = 0;
-//     for (let i = 0; i < number; i++) {
+//     for (let i = 0; i <= number; i++) {
 //         total += i;
 //         console.log(total);
 //     }
