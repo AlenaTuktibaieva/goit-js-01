@@ -247,33 +247,29 @@
 
 
 // Task 25
-function getCommonElements(array1, array2) {
-  // Change code below this line
-    let newArray = [];
-    // for (const element of array1) {
-    //     if (array2.includes(element)) {
-    //         newArray.push(element);
-    //     }
+// function getCommonElements(array1, array2) {
+//   // Change code below this line
+//     let newArray = [];
+//     for (const element of array1) {
+//         if (array2.includes(element)) {
+//             newArray.push(element);
+//         }
         
-    // }
-    // console.log(newArray);
-    // return newArray;
-
-    for (let i = 0; i < array1.length; i += 1) {
-        
-    }
- // Change code above this line
-}
-getCommonElements([1, 2, 3], [2, 4]);
-getCommonElements([1, 2, 3], [2, 1, 17, 19]);
-getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]);
-getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
-getCommonElements([1, 2, 3], [10, 20, 30]);
+//     }
+//     console.log(newArray);
+//     return newArray;
+//  // Change code above this line
+// }
+// getCommonElements([1, 2, 3], [2, 4]);
+// getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]);
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);
+// getCommonElements([1, 2, 3], [10, 20, 30]);
 
 
 // Task 26
 // function calculateTotalPrice(order) {
-//   let total = 0;const
+//   let total = 0;
 //   // Change code below this line
 
 //   for (const orders of order) {
